@@ -14,14 +14,11 @@ class NightMode extends React.Component {
 
   switchMode = () => {
     const input = document.querySelector('#toggler');
-    const root = document.querySelector('#root');
     if (!input.classList.contains('active')) {
-      input.classList.add('active');
-      root.classList.add('dark-mode-active');
+      document.documentElement.setAttribute('theme', 'dark');
       this.props.nightModeActive();
     } else {
-      input.classList.remove('active');
-      root.classList.remove('dark-mode-active');
+      document.documentElement.removeAttribute('theme', 'dark');
       this.props.nightModeInactive();
     }
   };

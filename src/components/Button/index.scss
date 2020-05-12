@@ -1,7 +1,10 @@
+@import '../../assets/colors/_colors';
+
 .button {
-  color: #fff;
+  color: var(--colorWhite);
   margin-top: 15px;
   padding: 10px 50px;
   text-transform: uppercase;
-  background-color: #333333;
+  border: 1px solid var(--btnBorder);
+  background-color: var(--btnBackground);
 }
