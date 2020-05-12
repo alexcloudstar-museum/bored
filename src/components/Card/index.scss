@@ -1,0 +1,47 @@
+.Card {
+  color: #fff;
+  display: flex;
+  padding: 15px 30px;
+  flex-direction: row;
+  background-color: #232323;
+
+  h5 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h5,
+  p {
+    margin: 25px 20px;
+  }
+
+  .Card__header {
+    .Card__notFound {
+      color: #d12f24;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Card {
+    padding: 0 30px;
+    margin-bottom: 50px;
+
+    h5 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    h5,
+    p {
+      margin: 20px;
+    }
+  }
+}

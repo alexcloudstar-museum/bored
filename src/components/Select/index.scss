@@ -1,0 +1,83 @@
+@import '../../assets/colors/_colors';
+
+.Select {
+  .Select__form {
+    display: flex;
+    flex-direction: row;
+    form {
+      display: flex;
+
+      > div {
+        margin: 0 10px;
+        > label {
+          margin-right: 5px;
+          color: var(--colorWhite);
+        }
+
+        > select {
+          text-transform: capitalize;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  .Select__btns {
+    button {
+      margin: 0 5px;
+    }
+  }
+
+  .Select__random__btn {
+    left: 50%;
+    bottom: 20%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 600px) {
+  .Select {
+    width: 100%;
+    text-align: center;
+
+    .Select__form {
+      flex-direction: column;
+
+      form {
+        flex-direction: column;
+
+        > div {
+          display: block;
+
+          > label {
+            display: block;
+            margin: 5px 0;
+          }
+
+          > select {
+            margin: 5px 0;
+          }
+        }
+      }
+    }
+
+    .Select__btns {
+      button {
+        margin: 15px 0;
+      }
+    }
+
+    .Select__random__btn {
+      bottom: 3%;
+    }
+  }
+}
+
+@media (min-width: 601px) and (max-width: 923px) {
+  .Select {
+    .Select__random__btn {
+      bottom: 10%;
+    }
+  }
+}
