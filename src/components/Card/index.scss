@@ -25,3 +25,23 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .Card {
+    padding: 0 30px;
+    margin-bottom: 50px;
+
+    h5 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    h5,
+    p {
+      margin: 20px;
+    }
+  }
+}

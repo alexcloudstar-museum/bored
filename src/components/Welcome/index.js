@@ -21,7 +21,7 @@ class Welcome extends React.Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={Logo} alt="Logo image" />
+          <img src={Logo} alt="Logo" />
         </a>
         <h3>
           Are you Bored?

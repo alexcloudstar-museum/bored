@@ -69,7 +69,15 @@
     }
 
     .Select__random__btn {
-      bottom: 30px;
+      bottom: 3%;
+    }
+  }
+}
+
+@media (min-width: 601px) and (max-width: 923px) {
+  .Select {
+    .Select__random__btn {
+      bottom: 10%;
     }
   }
 }
