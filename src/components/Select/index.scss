@@ -1,0 +1,33 @@
+.Select {
+  .Select__form {
+    display: flex;
+    flex-direction: row;
+    form {
+      display: flex;
+
+      > div {
+        margin: 0 10px;
+        > label {
+          margin-right: 5px;
+        }
+
+        > select {
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+
+  .Select__btns {
+    button {
+      margin: 0 5px;
+    }
+  }
+
+  .Select__random__btn {
+    left: 50%;
+    bottom: 30px;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+}
