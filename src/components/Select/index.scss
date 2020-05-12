@@ -31,3 +31,37 @@
     transform: translateX(-50%);
   }
 }
+
+@media (max-width: 600px) {
+  .Select {
+    width: 100%;
+    text-align: center;
+
+    .Select__form {
+      flex-direction: column;
+
+      form {
+        flex-direction: column;
+
+        > div {
+          display: block;
+
+          > label {
+            display: block;
+            margin: 5px 0;
+          }
+
+          > select {
+            margin: 5px 0;
+          }
+        }
+      }
+    }
+
+    .Select__btns {
+      button {
+        margin: 15px 0;
+      }
+    }
+  }
+}
