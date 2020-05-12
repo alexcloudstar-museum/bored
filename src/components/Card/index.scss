@@ -17,4 +17,11 @@
   p {
     margin: 25px 20px;
   }
+
+  .Card__header {
+    .Card__notFound {
+      color: #d12f24;
+      text-align: center;
+    }
+  }
 }
