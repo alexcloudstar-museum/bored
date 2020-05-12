@@ -1,8 +1,11 @@
 import React from 'react';
 import 'components/Welcome/index.scss';
+import Logo from 'assets/images/logo.png';
 
 import Button from 'components/Button';
+import Redirect from 'components/Redirect';
 
+import { Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { sayHi } from 'actions';
 
@@ -14,6 +17,13 @@ class Welcome extends React.Component {
   render() {
     return (
       <div className="Welcome">
+        <Route
+          path="/alexcloudstar.com"
+          component={Redirect}
+          loc="http://alexcloudstar.com/"
+        >
+          <img src={Logo} alt="Logo image" />
+        </Route>
         <h3>
           Are you Bored?
           <br />
