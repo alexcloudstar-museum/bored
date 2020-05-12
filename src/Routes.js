@@ -1,13 +1,13 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
-import { Switch, Route, __RouterContext } from 'react-router-dom';
+import { Switch, Route, useLocation } from 'react-router-dom';
 import { useTransition, animated } from 'react-spring';
 
 import Welcome from 'components/Welcome';
 import Activity from 'components/Activity';
 
 const Routes = () => {
-  const { location } = useContext(__RouterContext);
+  let location = useLocation();
   const transitions = useTransition(location, (location) => location.pathname, {
     from: { opacity: 0, transform: 'translate(100%, 0)' },
     enter: { opacity: 1, transform: 'translate(0%, 0)' },
