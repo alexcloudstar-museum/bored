@@ -3,6 +3,7 @@ import 'components/Welcome/index.scss';
 import Logo from 'assets/images/logo.png';
 
 import Button from 'components/Button';
+import NightMode from 'components/NightMode';
 
 import { connect } from 'react-redux';
 import { sayHi } from 'actions';
@@ -30,6 +31,7 @@ class Welcome extends React.Component {
         <br />
         {/* Margin top more  */}
         <Button />
+        <NightMode />
       </div>
     );
   }

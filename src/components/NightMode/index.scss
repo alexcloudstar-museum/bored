@@ -1,0 +1,63 @@
+.NightMode {
+  margin-top: 30px;
+
+  label {
+    display: block;
+    width: 54px;
+    height: 32px;
+    margin: 0px auto;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    background-color: #e6e9ec;
+    &:hover {
+      > i {
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+        transform: scale(1.01);
+      }
+    }
+    &:active {
+      background-color: #a6b9cb;
+      > i {
+        width: 34px;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+  input {
+    display: none;
+  }
+  i {
+    height: 28px;
+    width: 28px;
+    background: #ffffff;
+    display: inline-block;
+    border-radius: 100px;
+    margin-top: 2px;
+    margin-left: -24px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    pointer-events: none;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+  input.active {
+    & + label {
+      > i {
+        margin-left: 24px;
+      }
+      &:active {
+        > i {
+          margin-left: 18px;
+        }
+      }
+      background-color: #fc3158;
+    }
+  }
+}
+
+#root {
+  &.dark-mode-active {
+    background-color: #262626;
+    transition: 0.5s all ease-in-out;
+  }
+}

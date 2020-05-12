@@ -6,6 +6,8 @@ import {
   RANDOM_ACTIVITY,
   CLEAR_ACTIVITY,
   FIND_ACTIVITY_ERROR,
+  NIGHT_TOGGLER_ACTIVE,
+  NIGHT_TOGGLER_INACTIVE,
 } from 'actions/types';
 
 export const sayHi = () => {
@@ -52,5 +54,21 @@ export const clearActivity = () => {
   return {
     type: CLEAR_ACTIVITY,
     payload: '',
+  };
+};
+
+export const nightModeActive = () => {
+  localStorage.setItem('nightmode', 'active');
+  return {
+    type: NIGHT_TOGGLER_ACTIVE,
+    payload: 'nightmode-active',
+  };
+};
+
+export const nightModeInactive = () => {
+  localStorage.setItem('nightmode', 'inactive');
+  return {
+    type: NIGHT_TOGGLER_INACTIVE,
+    payload: 'nightmode-inactive',
   };
 };
