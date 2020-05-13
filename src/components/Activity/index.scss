@@ -1,3 +1,9 @@
 .Activity {
   margin-top: 30px;
 }
+
+@media (max-width: 600px) {
+  .button {
+    margin-bottom: 5px;
+  }
+}

@@ -16,7 +16,7 @@
 
         > select {
           text-transform: capitalize;
-          height: 30px;
+          height: 38px;
         }
       }
     }
@@ -26,13 +26,6 @@
     button {
       margin: 0 5px;
     }
-  }
-
-  .Select__random__btn {
-    left: 50%;
-    bottom: 20%;
-    position: absolute;
-    transform: translateX(-50%);
   }
 }
 
@@ -66,18 +59,6 @@
       button {
         margin: 15px 0;
       }
-    }
-
-    .Select__random__btn {
-      bottom: 3%;
-    }
-  }
-}
-
-@media (min-width: 601px) and (max-width: 923px) {
-  .Select {
-    .Select__random__btn {
-      bottom: 10%;
     }
   }
 }
