@@ -1,11 +1,13 @@
 import React from 'react';
 import 'components/Select/index.scss';
 
+import Button from 'components/Button';
+
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { Field, reduxForm } from 'redux-form';
 
-import { findActivity, findRandomActivity, clearActivity } from 'actions';
+import { findActivity, clearActivity } from 'actions';
 
 class selectActivity extends React.Component {
   onSubmit = (formProps) => {
@@ -14,8 +16,6 @@ class selectActivity extends React.Component {
   };
 
   clearValues = () => {
-    // this.props.reset('findActivity');
-
     this.props.clearActivity();
   };
 
@@ -69,16 +69,11 @@ class selectActivity extends React.Component {
               </Field>
             </div>
             <div className="Select__btns">
-              <button>Find my activity!</button>
+              <Button>Find my activity!</Button>
             </div>
           </form>
           <div className="Select__clear">
-            <button onClick={this.clearValues}>Clear</button>
-          </div>
-          <div className="Select__random__btn">
-            <button onClick={() => this.props.findRandomActivity()}>
-              Get Random Activity
-            </button>
+            <Button onClick={this.clearValues}>Clear</Button>
           </div>
         </div>
       </div>
@@ -91,6 +86,6 @@ const mapStateToProps = (state) => ({
 });
 
 export default compose(
-  connect(mapStateToProps, { findActivity, findRandomActivity, clearActivity }),
+  connect(mapStateToProps, { findActivity, clearActivity }),
   reduxForm({ form: 'findActivity' })
 )(selectActivity);

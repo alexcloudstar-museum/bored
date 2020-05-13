@@ -2,9 +2,12 @@
 
 .button {
   color: var(--colorWhite);
-  margin-top: 15px;
   padding: 10px 50px;
   text-transform: uppercase;
   border: 1px solid var(--btnBorder);
   background-color: var(--btnBackground);
+
+  a {
+    color: var(--colorWhite);
+  }
 }

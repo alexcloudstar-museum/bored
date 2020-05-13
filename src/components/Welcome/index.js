@@ -5,6 +5,7 @@ import Logo from 'assets/images/logo.png';
 import Button from 'components/Button';
 import NightMode from 'components/NightMode';
 
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { sayHi } from 'actions';
 
@@ -30,7 +31,9 @@ class Welcome extends React.Component {
         </h3>
         <br />
         {/* Margin top more  */}
-        <Button />
+        <Button>
+          <Link to="/activity">Let's find out!</Link>
+        </Button>
         <NightMode />
       </div>
     );

@@ -1,13 +1,11 @@
 import React from 'react';
 import 'components/Button/index.scss';
 
-import { Link } from 'react-router-dom';
-
-const Button = (props) => {
+const Button = ({ children, onClick }) => {
   return (
-    <Link to="/activity" className="button">
-      Let's find out!
-    </Link>
+    <button onClick={onClick} className="button">
+      {children}
+    </button>
   );
 };
 
