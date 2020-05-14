@@ -7,6 +7,6 @@ import nightModeReducer from 'reducers/nightModeReducer';
 export default combineReducers({
   form: formReducer,
   welcome: welcomeReducer,
-  findActivity: findActivityReducer,
+  findActivty: findActivityReducer,
   nightToggler: nightModeReducer,
 });

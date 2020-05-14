@@ -82,7 +82,7 @@ class selectActivity extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-  activity: state.findActivity.activity,
+  activity: state.findActivty.activity,
 });
 
 export default compose(
