@@ -54,7 +54,7 @@ class Card extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-  activity: state.findActivty.activity,
+  activity: state.findActivity.activity,
 });
 
 export default connect(mapStateToProps, { findActivity, findRandomActivity })(

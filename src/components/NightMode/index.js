@@ -6,7 +6,6 @@ import { connect } from 'react-redux';
 
 class NightMode extends React.Component {
   componentDidMount() {
-    // this.props.nightModeOn();
     if (localStorage.getItem('nightmode') === 'active') {
       document.querySelector('#root').classList.add('dark-mode-active');
     }
