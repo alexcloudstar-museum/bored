@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bored/static/css/main.26c4e087.chunk.css",
-    "main.js": "/bored/static/js/main.ddede474.chunk.js",
-    "main.js.map": "/bored/static/js/main.ddede474.chunk.js.map",
+    "main.css": "/bored/static/css/main.6fe1cd6f.chunk.css",
+    "main.js": "/bored/static/js/main.619e2daf.chunk.js",
+    "main.js.map": "/bored/static/js/main.619e2daf.chunk.js.map",
     "runtime-main.js": "/bored/static/js/runtime-main.5d6c6c1a.js",
     "runtime-main.js.map": "/bored/static/js/runtime-main.5d6c6c1a.js.map",
     "static/js/2.f4392f6e.chunk.js": "/bored/static/js/2.f4392f6e.chunk.js",
     "static/js/2.f4392f6e.chunk.js.map": "/bored/static/js/2.f4392f6e.chunk.js.map",
     "index.html": "/bored/index.html",
-    "precache-manifest.be9beab16968ed3146e678995e3ba6fd.js": "/bored/precache-manifest.be9beab16968ed3146e678995e3ba6fd.js",
+    "precache-manifest.df38c0a7daa75d8bb7a6e745ea2d6104.js": "/bored/precache-manifest.df38c0a7daa75d8bb7a6e745ea2d6104.js",
     "service-worker.js": "/bored/service-worker.js",
-    "static/css/main.26c4e087.chunk.css.map": "/bored/static/css/main.26c4e087.chunk.css.map",
+    "static/css/main.6fe1cd6f.chunk.css.map": "/bored/static/css/main.6fe1cd6f.chunk.css.map",
     "static/js/2.f4392f6e.chunk.js.LICENSE.txt": "/bored/static/js/2.f4392f6e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5d6c6c1a.js",
     "static/js/2.f4392f6e.chunk.js",
-    "static/css/main.26c4e087.chunk.css",
-    "static/js/main.ddede474.chunk.js"
+    "static/css/main.6fe1cd6f.chunk.css",
+    "static/js/main.619e2daf.chunk.js"
   ]
 }
