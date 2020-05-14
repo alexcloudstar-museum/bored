@@ -20,7 +20,7 @@ const Routes = () => {
         {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
             <Switch location={item}>
-              <Route exact path="/" component={Welcome} />
+              <Route exact path="/bored" component={Welcome} />
               <Route path="/activity" component={Activity} />
             </Switch>
           </animated.div>
