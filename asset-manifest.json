@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bored/static/css/main.6fe1cd6f.chunk.css",
-    "main.js": "/bored/static/js/main.e18974d1.chunk.js",
-    "main.js.map": "/bored/static/js/main.e18974d1.chunk.js.map",
+    "main.js": "/bored/static/js/main.c81ec16b.chunk.js",
+    "main.js.map": "/bored/static/js/main.c81ec16b.chunk.js.map",
     "runtime-main.js": "/bored/static/js/runtime-main.5d6c6c1a.js",
     "runtime-main.js.map": "/bored/static/js/runtime-main.5d6c6c1a.js.map",
     "static/js/2.f4392f6e.chunk.js": "/bored/static/js/2.f4392f6e.chunk.js",
     "static/js/2.f4392f6e.chunk.js.map": "/bored/static/js/2.f4392f6e.chunk.js.map",
     "index.html": "/bored/index.html",
-    "precache-manifest.1c8ff7f13447c56765cd93c2a75b5668.js": "/bored/precache-manifest.1c8ff7f13447c56765cd93c2a75b5668.js",
+    "precache-manifest.720b515d6258366e5f680c7f803b36c1.js": "/bored/precache-manifest.720b515d6258366e5f680c7f803b36c1.js",
     "service-worker.js": "/bored/service-worker.js",
     "static/css/main.6fe1cd6f.chunk.css.map": "/bored/static/css/main.6fe1cd6f.chunk.css.map",
     "static/js/2.f4392f6e.chunk.js.LICENSE.txt": "/bored/static/js/2.f4392f6e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5d6c6c1a.js",
     "static/js/2.f4392f6e.chunk.js",
     "static/css/main.6fe1cd6f.chunk.css",
-    "static/js/main.e18974d1.chunk.js"
+    "static/js/main.c81ec16b.chunk.js"
   ]
 }
