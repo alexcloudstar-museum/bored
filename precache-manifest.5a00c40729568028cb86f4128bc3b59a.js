@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e3187d2e52b1a2305bcad224644cbfc",
+    "revision": "880ff876ee2eef4bb7a0c45dbddbf002",
     "url": "/bored/index.html"
   },
   {
-    "revision": "f7df98cbe1acd676631b",
-    "url": "/bored/static/css/main.6fe1cd6f.chunk.css"
+    "revision": "606f702e00022b565f6e",
+    "url": "/bored/static/css/main.0e836743.chunk.css"
   },
   {
     "revision": "0b701209851284f4f1de",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bored/static/js/2.f4392f6e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7df98cbe1acd676631b",
+    "revision": "606f702e00022b565f6e",
     "url": "/bored/static/js/main.c81ec16b.chunk.js"
   },
   {
