@@ -17,12 +17,9 @@ export const sayHi = () => {
   };
 };
 
-// change the shit's from there
 export const findActivity = (formProps, callback) => async (dispatch) => {
   try {
     const response = await axios.get(
-      // http://www.boredapi.com/api/activity?type=social&participants=2&price=0
-      // example of api request
       `http://www.boredapi.com/api/activity?type=${formProps.type}&accessibility=${formProps.accessibility}&participants=${formProps.participants}&price=${formProps.price}`,
       formProps
     );
