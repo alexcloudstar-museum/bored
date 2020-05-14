@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bored/static/css/main.26c4e087.chunk.css",
+    "main.js": "/bored/static/js/main.ddede474.chunk.js",
+    "main.js.map": "/bored/static/js/main.ddede474.chunk.js.map",
+    "runtime-main.js": "/bored/static/js/runtime-main.5d6c6c1a.js",
+    "runtime-main.js.map": "/bored/static/js/runtime-main.5d6c6c1a.js.map",
+    "static/js/2.f4392f6e.chunk.js": "/bored/static/js/2.f4392f6e.chunk.js",
+    "static/js/2.f4392f6e.chunk.js.map": "/bored/static/js/2.f4392f6e.chunk.js.map",
+    "index.html": "/bored/index.html",
+    "precache-manifest.be9beab16968ed3146e678995e3ba6fd.js": "/bored/precache-manifest.be9beab16968ed3146e678995e3ba6fd.js",
+    "service-worker.js": "/bored/service-worker.js",
+    "static/css/main.26c4e087.chunk.css.map": "/bored/static/css/main.26c4e087.chunk.css.map",
+    "static/js/2.f4392f6e.chunk.js.LICENSE.txt": "/bored/static/js/2.f4392f6e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d6c6c1a.js",
+    "static/js/2.f4392f6e.chunk.js",
+    "static/css/main.26c4e087.chunk.css",
+    "static/js/main.ddede474.chunk.js"
+  ]
+}
