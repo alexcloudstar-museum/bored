@@ -20,7 +20,7 @@ export const sayHi = () => {
 export const findActivity = (formProps, callback) => async (dispatch) => {
   try {
     const response = await axios.get(
-      `http://www.boredapi.com/api/activity?type=${formProps.type}&accessibility=${formProps.accessibility}&participants=${formProps.participants}&price=${formProps.price}`,
+      `https://www.boredapi.com/api/activity?type=${formProps.type}&accessibility=${formProps.accessibility}&participants=${formProps.participants}&price=${formProps.price}`,
       formProps
     );
 
@@ -36,7 +36,7 @@ export const findActivity = (formProps, callback) => async (dispatch) => {
 
 export const findRandomActivity = () => async (dispatch) => {
   try {
-    const response = await axios.get('http://www.boredapi.com/api/activity/');
+    const response = await axios.get('https://www.boredapi.com/api/activity/');
     dispatch({ type: RANDOM_ACTIVITY, payload: response.data });
   } catch (err) {
     dispatch({
